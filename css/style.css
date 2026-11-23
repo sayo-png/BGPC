@@ -1,0 +1,115 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    padding: 0px 24px;
+    color: text;
+    font-size: 1.2rem;
+}
+
+
+.nav a:visited, a:visited {
+    color: black;
+}
+
+header h1 {
+    display: grid;
+    text-align: center;
+    background-color: #095B0E;
+    color: #F1EE35;
+    padding: 50px 0px;
+    font-size: 3.5rem;
+    margin-top: 0px;
+    font-family: 'IM Fell Great Primer', 'Plus Jakarta Sans', Lora, 'Times New Roman', Times, serif;
+}
+
+/* Footer */
+.contact-info {
+    display: flex;
+    background-color: #095B0E;
+    color:#F1EE35;
+    justify-content: space-evenly; 
+    font-size: 1.2rem;  
+}
+
+.contact-info a, .contact-info a:visited {
+    color:#F1EE35;
+}
+
+.contact-info address {
+    margin-top: 10px;
+}
+
+
+
+/* ----------------------------------Home screen---------------------------------------*/
+
+/* Mission statement home screen */
+.mission-statement {
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.mission-statement h2 {
+   grid-column: 1 / -1;
+   text-align: center;
+   font-size: 2.3rem;
+   margin: 0px;
+}
+
+.mission-statement img {
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    margin: 0px auto;
+}
+/* Services */
+.services h2 {
+    display: grid;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.services h3 {
+    display: grid;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+.services-text {
+    font-size: 1.2rem;
+}
+
+/* About us */
+.about-us h2 {
+    display: grid;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.about-us-text {
+    font-size: 1.3rem;
+}
+
+
+/* ------------------------------------------ Media Query ------------------------------------------*/
+@media screen and (min-width: 900px) {
+    /* ------------------------ Home ------------------------*/
+    .mission-statement {
+        display: grid;
+        grid-template-columns: 450px 1fr;
+        align-items: center;
+        gap: 20px;
+        font-size: 1.2rem;
+    }
+
+    .mission-statement img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
