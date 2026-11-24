@@ -41,6 +41,47 @@ header h1 {
     margin-top: 10px;
 }
 
+.intro h2 {
+    display: grid;
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+}
+
+.intro p {
+    display: grid;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 0rem;
+}
+
+
+.service-type, .more {
+    border: 3px solid #095B0E;
+    margin: 2rem 0rem;
+    background-color: #fdfcdd;
+}
+
+.service-type h3 {
+    display: grid;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color:#095B0E;
+    color:#095B0E;
+}
+
+.outro, .more {
+    display: grid;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: auto;
+}
+
+.outro {
+    text-decoration: underline;
+}
 
 
 /* ----------------------------------Home screen---------------------------------------*/
